@@ -6,6 +6,7 @@
 
 
 <h1>{$page.data.title}</h1>
+THIS IS EPIC
 <div>{@html $page.data.content}</div>
   <div class="flex flex-col">
   {#each $page.data.pokemon as pokemon}
